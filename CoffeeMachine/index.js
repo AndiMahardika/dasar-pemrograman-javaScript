@@ -6,7 +6,8 @@
 // console.log("Menuangkan susu ke dalam gelas");
 // console.log("Kopi Anda sudah siap!");
 
-const coffeeStock = require(`./state`);
+// const coffeeStock = require(`./state`);
+const {coffeeStock, isCoffeeMachineReady} = require(`./state`)
 
 const makeCoffee = (type, miligrams) => {
   if (coffeeStock[type] >= miligrams) {
@@ -16,4 +17,6 @@ const makeCoffee = (type, miligrams) => {
   }
 }
  
-makeCoffee("robusta", 80);
+// makeCoffee("robusta", 80);
+console.log(coffeeStock);
+console.log(isCoffeeMachineReady);
