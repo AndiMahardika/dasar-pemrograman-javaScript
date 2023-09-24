@@ -22,4 +22,5 @@ const books = [
   ];
   
   // Tulis kode di bawah ini
-  
+const greatAuthors = books.filter(books => books.sales > 1000000 )
+  .map(book => `${book.author} adalah penulis buku ${book.title} yang sangat hebat!`)
