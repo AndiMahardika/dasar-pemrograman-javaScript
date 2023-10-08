@@ -38,6 +38,8 @@ function watchMovie(){
   withDrawMoney(10)
     .then(money => buyCinemaTicket(money))
     .then(ticket => goInsideCinema(ticket))
-    .catch(result => console.log(result))
+    .then(result => console.log(result))
     .catch(error => console.log(error))
 }
+
+watchMovie();
