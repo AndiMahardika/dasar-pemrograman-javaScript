@@ -1,0 +1,19 @@
+{
+  "name": "dasar-pemrograman-javascript",
+  "version": "1.0.0",
+  "description": "",
+  "main": "chainingPromise.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/AndiMahardika/dasar-pemrograman-javaScript.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/AndiMahardika/dasar-pemrograman-javaScript/issues"
+  },
+  "homepage": "https://github.com/AndiMahardika/dasar-pemrograman-javaScript#readme"
+}
